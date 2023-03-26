@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+    .block01 {
+        margin: 0px 15px;
+    }
+
+    .block_reverse {
+        flex-direction: column-reverse;
+    }
+
+    .block_normal {
+        flex-direction: column;
+    }
+
+    .block01 > img {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .aglomeration {
+        width: 100%;
+        margin: auto;
+    }
+
+    .aglomeration > img {
+        margin: auto;
+        display: none;
+    }
+
+    .paragraph {
+        margin: auto;
+    }
+
+    .strengthts {
+        margin-top: 100px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .small_box {
+        margin-bottom: 60px;
+    }
+}

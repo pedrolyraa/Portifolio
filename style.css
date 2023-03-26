@@ -304,7 +304,8 @@ h2 {
 }
 
 .project_divide>img {
-    max-width: 500px;
+    width: 100%;
+    max-width: 248px;
     margin: auto;
     margin-top: 20px;
     border: solid 1px;
@@ -317,6 +318,11 @@ h2 {
 
 .project_divide>p {
     margin: auto;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 #footer{
